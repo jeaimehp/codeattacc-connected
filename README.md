@@ -4,6 +4,7 @@ Contains scripts and code in support of the Code@TACC:Connected camp
 ## Prequisites
 * RaspberryPi with Raspbian installed and updated
   * This was written and tested on a RaspberryPi 400
+* Pimoroni Enviro – Indoor Environmental Monitor for RaspPi - PIM458
 [_Note: These scripts may run on other RPi variants and operating systems but they have not been tested._]
 
 -------
