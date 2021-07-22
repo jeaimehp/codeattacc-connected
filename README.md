@@ -13,4 +13,4 @@ Contains scripts and code in support of the Code@TACC:Connected camp
 2. Type ```git clone https://github.com/jeaimehp/codeattacc-connected.git```
 3. Type ```cd codeattacc-connected```
 4. Type ```./rpi-setup.bash```
-5. Press ```y``` at any prompts. Note: The final one will restart your RPi
+5. Press ```y``` and press ```[Enter]``` at any prompts. Note: The final one will restart your RPi
