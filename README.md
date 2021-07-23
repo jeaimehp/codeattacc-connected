@@ -8,7 +8,7 @@ Contains scripts and code in support of the Code@TACC:Connected camp
 
 [_Note: These scripts may run on other RPi variants and operating systems but they have not been tested._]
 
--------
+----
 
 ## To load all needed software:
 1. Within Raspbian open a Terminal window
