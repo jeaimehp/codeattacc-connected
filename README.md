@@ -1,4 +1,4 @@
-# codeattacc-connected
+# Code@TACC: Connected
 Contains scripts and code in support of the Code@TACC:Connected camp
 
 ## Prequisites
