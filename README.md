@@ -8,11 +8,6 @@ Contains scripts and code in support of the Code@TACC:Connected camp
 
 [_Note: These scripts may run on other RPi variants and operating systems but they have not been tested._]
 
-
-![rpi400](https://cdn-shop.adafruit.com/970x728/4796-12.jpg)
-
-![pim458](https://cdn.shopify.com/s/files/1/0174/1800/products/Enviro-Plus-pHAT-on-white-2_300x300.jpg?v=1573820030) ![pim458n](https://cdn.shopify.com/s/files/1/0174/1800/products/Enviro-mini-HAT-_2-of-3_300x300.jpg?v=1573820039) ![pin458headers](https://cdn.shopify.com/s/files/1/0174/1800/products/Enviro-mini-HAT-_1-of-3_300x300.jpg?v=1573820041)
-
 ---
 
 ## To load all needed software:
@@ -21,3 +16,12 @@ Contains scripts and code in support of the Code@TACC:Connected camp
 3. Type ```cd codeattacc-connected```
 4. Type ```./rpi-setup.bash```
 5. Press ```y``` and press ```[Enter]``` at any prompts. Note: The final one will restart your RPi
+
+---
+
+![rpi400](https://cdn-shop.adafruit.com/970x728/4796-12.jpg)
+
+![pim458](https://cdn.shopify.com/s/files/1/0174/1800/products/Enviro-Plus-pHAT-on-white-2_300x300.jpg?v=1573820030) ![pim458n](https://cdn.shopify.com/s/files/1/0174/1800/products/Enviro-mini-HAT-_2-of-3_300x300.jpg?v=1573820039) ![pin458headers](https://cdn.shopify.com/s/files/1/0174/1800/products/Enviro-mini-HAT-_1-of-3_300x300.jpg?v=1573820041)
+
+---
+
