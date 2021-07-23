@@ -3,7 +3,8 @@ Contains scripts and code in support of the Code@TACC:Connected camp
 
 ## Prerequisites
 * RaspberryPi with Raspbian installed and updated
-  * This was written and tested on a RaspberryPi 400
+  * This was written and tested on a [RaspberryPi 400](https://www.adafruit.com/product/4796)
+* Adafruit [Cyberdeck](https://www.adafruit.com/product/4863)
 * Pimoroni Enviro – Indoor Environmental Monitor for RaspPi - [PIM458](https://shop.pimoroni.com/products/enviro?variant=31155658457171)
 
 [_Note: These scripts may run on other RPi variants and operating systems but they have not been tested._]
@@ -21,7 +22,7 @@ Contains scripts and code in support of the Code@TACC:Connected camp
 
 ![rpi400](https://cdn-shop.adafruit.com/970x728/4796-12.jpg)
 
-![pim458](https://cdn.shopify.com/s/files/1/0174/1800/products/Enviro-Plus-pHAT-on-white-2_300x300.jpg?v=1573820030) ![pim458n](https://cdn.shopify.com/s/files/1/0174/1800/products/Enviro-mini-HAT-_2-of-3_300x300.jpg?v=1573820039) ![pin458headers](https://cdn.shopify.com/s/files/1/0174/1800/products/Enviro-mini-HAT-_1-of-3_300x300.jpg?v=1573820041)
+![cyberdeck](https://cdn-shop.adafruit.com/145x109/4863-09.jpg) ![pim458](https://cdn.shopify.com/s/files/1/0174/1800/products/Enviro-Plus-pHAT-on-white-2_300x300.jpg?v=1573820030)  ![pin458headers](https://cdn.shopify.com/s/files/1/0174/1800/products/Enviro-mini-HAT-_1-of-3_300x300.jpg?v=1573820041)
 
 ---
 
