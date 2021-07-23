@@ -20,10 +20,15 @@ Contains scripts and code in support of the Code@TACC:Connected camp
 
 ---
 
+## Materials
+
+### RaspberryPi 400
 ![rpi400](https://cdn-shop.adafruit.com/970x728/4796-12.jpg)
 
+### Adafruit Cyberdeck
 ![cyberdeck](https://cdn-shop.adafruit.com/145x109/4863-09.jpg)
 
+### Pimoroni Enviro+ PIM458
 ![pim458](https://cdn.shopify.com/s/files/1/0174/1800/products/Enviro-Plus-pHAT-on-white-2_300x300.jpg?v=1573820030)  ![pin458headers](https://cdn.shopify.com/s/files/1/0174/1800/products/Enviro-mini-HAT-_1-of-3_300x300.jpg?v=1573820041)
 
 ---
