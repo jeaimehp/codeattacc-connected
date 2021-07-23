@@ -9,9 +9,9 @@ Contains scripts and code in support of the Code@TACC:Connected camp
 [_Note: These scripts may run on other RPi variants and operating systems but they have not been tested._]
 
 
-[![rpi400](https://cdn-shop.adafruit.com/970x728/4796-12.jpg)]
+![rpi400](https://cdn-shop.adafruit.com/970x728/4796-12.jpg)
 
-[![pim458](https://cdn.shopify.com/s/files/1/0174/1800/products/Enviro-Plus-pHAT-on-white-2_300x300.jpg?v=1573820030)]
+![pim458](https://cdn.shopify.com/s/files/1/0174/1800/products/Enviro-Plus-pHAT-on-white-2_300x300.jpg?v=1573820030)
 
 ---
 
