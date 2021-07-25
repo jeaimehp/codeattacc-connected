@@ -26,10 +26,17 @@ yes|pip3 install jupyter
 
 echo "To start jupyter notebooks type \"jupyter notebook\" "
 echo " "
-echo "Installing Enviro+ Libraries"
-echo "Downloading and installing the python libray"
-curl -sSL https://get.pimoroni.com/enviroplus | bash
+echo "Creating ~/Desktop symlink (shortcut)"
+
+ln -s ~/codeattacc-connected ~/Desktop/
+
+echo "Creating Jupyter Notebook Launcher"
+cp ~/codeattacc-connected/individual-scripts/Jupyter-Notebook.bash ~/Desktop/
+
+echo "Downloading and installing the Enviro+ python libray"
 echo "Cloning the github repo"
 git clone https://github.com/pimoroni/enviroplus-python.git
+echo "Installing Enviro+ Libraries"
+curl -sSL https://get.pimoroni.com/enviroplus | bash
 
 

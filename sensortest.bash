@@ -5,4 +5,4 @@ NC='\033[0m' # No Color
 printf "${PURPLE}Running Pimoroni Enviro+ Sensor Test....\n"
 echo " "
 printf "${CYAN}Press Ctrl + c to stop the test\n"
-python3 enviroplus-python/examples/weather-and-light.py
+python3 ~/codeattacc-connected/enviroplus-python/examples/weather-and-light.py
