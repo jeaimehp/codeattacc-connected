@@ -21,8 +21,10 @@ python --version
 
 echo " "
 echo "Installing Jupyter Notebook "
-yes|pip3 install notebook
 yes|pip3 install jupyter
+yes|pip3 install notebook
+yes|pip3 install --upgrade prompt-toolkit==3.0.0
+yes|pip3 install --upgrade ipython
 
 echo "To start jupyter notebooks type \"jupyter notebook\" "
 echo " "
