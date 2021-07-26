@@ -21,6 +21,7 @@ python --version
 
 echo " "
 echo "Installing Jupyter Notebook "
+sudo apt-get -y install python3-numpy python3-pandas python3-matplotlib
 yes|pip3 install jupyter
 yes|pip3 install notebook
 yes|pip3 install --upgrade prompt-toolkit==3.0.0
