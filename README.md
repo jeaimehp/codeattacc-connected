@@ -1,6 +1,8 @@
 # Code@TACC: Connected
 Contains scripts and code in support of the Code@TACC:Connected camp
 
+**Public Site:** [https://jeaimehp.github.io/codeattacc-connected/}(https://jeaimehp.github.io/codeattacc-connected/)
+
 ## Prerequisites
 * RaspberryPi with Raspbian installed and updated
   * This was written and tested on a [RaspberryPi 400](https://www.adafruit.com/product/4796)
