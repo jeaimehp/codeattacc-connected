@@ -1,3 +1,3 @@
-#!/bin/env bash
+#!/bin/bash
 cd ~
-jupyter notebook
+.local/bin/jupyter notebook
