@@ -9,7 +9,7 @@ course_semester: "Summer 2022"
 
 # Git Pages Settings
 baseurl: "/codeattacc-connected" # the subpath of your site, e.g. /blog/
-url: "https://jeaimehp.github.io" # the base hostname & protocol for your site
+url: "https://jeaimehp.github.io/" # the base hostname & protocol for your site
 
 # Local Settings
 #baseurl: "" # the subpath of your site, e.g. /blog/
