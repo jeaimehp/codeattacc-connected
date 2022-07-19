@@ -1,6 +1,6 @@
 body {
 	background: #038081;
-	background-image: url("{{ site.url }}{{ site.baseurl }}/assets/img/Windows-95-Wallpaper-HD-Wallpapers-wallpaper-Collections.jpg");
+	background-image: url("/codeattacc-connected/assets/img/Windows-95-Wallpaper-HD-Wallpapers-wallpaper-Collections.jpg");
 	background-position: bottom left; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
@@ -161,7 +161,7 @@ ul.topbar {
 	}
 }
 #tag-list {
-    background:transparent url({{ site.url }}{{ site.baseurl }}/assets/img/pixel-alt.png) repeat-y 15px 0;
+    background:transparent url("/codeattacc-connected/assets/img/pixel-alt.png") repeat-y 15px 0;
 }
 #tag-list li {
     padding:0 0 0 2px;
@@ -171,7 +171,7 @@ ul.topbar {
     display:block;
 }
 #tag-list li ul li {
-    background:transparent url({{ site.url }}{{ site.baseurl }}/assets/img/pixel-alt.png) repeat-x 0 8px;
+    background:transparent url("/codeattacc-connected/assets/img/pixel-alt.png") repeat-x 0 8px;
     margin:4px 0 4px 13px;
     padding:0 0 0 20px;
 }
@@ -418,7 +418,7 @@ ul.topbar {
       width: 16px;
 } /* this targets the default scrollbar (compulsory) */
 ::-webkit-scrollbar-track {
-	background-image: url("{{ site.url }}{{ site.baseurl }}/assets/img/track.png");
+	background-image: url("/codeattacc-connected/assets/img/track.png");
 	background-repeat: repeat-x repeat-y;
 } /* the new scrollbar will have a flat appearance with the set background color */
  
@@ -438,19 +438,19 @@ ul.topbar {
 	background-repeat: no-repeat;
 
 	&:vertical:decrement {
-		background-image: url("{{ site.url }}{{ site.baseurl }}/assets/img/up.png");
+		background-image: url("/codeattacc-connected/assets/img/up.png");
 	}
 
 	&:vertical:increment {
-		background-image: url("{{ site.url }}{{ site.baseurl }}/assets/img/down.png");
+		background-image: url("/codeattacc-connected/assets/img/down.png");
 	}
 
 	&:horizontal:decrement {
-		background-image: url("{{ site.url }}{{ site.baseurl }}/assets/img/left.png");
+		background-image: url("/codeattacc-connected/assets/img/left.png");
 	}
 
 	&:horizontal:increment {
-		background-image: url("{{ site.url }}{{ site.baseurl }}/assets/img/right.png");
+		background-image: url("/codeattacc-connected/assets/img/right.png");
 	}
 
 	&:active {
