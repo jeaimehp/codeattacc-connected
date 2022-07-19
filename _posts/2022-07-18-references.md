@@ -6,7 +6,7 @@ tags: Day1 Day2 Day3 Day4 Day5 Day6 References Code
 # <center>Helpful Information and References</center>
 ---
 # Loading the Developmental Environment
-<img src="/assets/img/2021-Code-logo-darkgreen.png" alt="Code@TACC Logo" style="float: left; width: 100px; margin: 30px;">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/img/2021-Code-logo-darkgreen.png" alt="Code@TACC Logo" style="float: left; width: 100px; margin: 30px;">
 
 **To load all needed software:**
 1. Within Raspbian open a Terminal window
@@ -15,12 +15,12 @@ tags: Day1 Day2 Day3 Day4 Day5 Day6 References Code
 4. Type <code>./rpi-setup.bash</code>
 5. Press <code>y</code> and press [Enter] at any prompts. Note: The final one will restart your RPi
 
-* **[Code@TACC:Connected General Termonology and Reference Document](/assets/pdfs/Reference%20Document%20Connected.pdf)**
+* **[Code@TACC:Connected General Termonology and Reference Document]({{ site.url }}{{ site.baseurl }}/assets/pdfs/Reference%20Document%20Connected.pdf)**
 <br>
 
 ---
 ## RPi and Sensor Links
-<img src="/assets/img/rpi_in_box.JPG" alt="RPi in box with Enviro+" style="float: right; width: 200px; margin: 50px;">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/img/rpi_in_box.JPG" alt="RPi in box with Enviro+" style="float: right; width: 200px; margin: 50px;">
 * **[RPi Beginners Guide 4thEd English v2](/assets/pdfs/BeginnersGuide-4thEd-Eng_v2.pdf)**
 * **[7in HDMI LCD Manual](/assets/pdfs/7in-HDMI-LCD%20Manual.pdf)**
 * **[Pimoroni Enviro + Air Quality(PIM458)](https://shop.pimoroni.com/products/enviro?variant=31155658457171)**
