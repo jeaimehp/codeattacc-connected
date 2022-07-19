@@ -1,3 +1,8 @@
+---
+layout: default
+title: "README.md"
+tags: References
+---
 # Code@TACC: Connected
 Contains scripts and code in support of the Code@TACC:Connected camp
 
