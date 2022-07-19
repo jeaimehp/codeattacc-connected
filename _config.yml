@@ -1,1 +1,26 @@
-theme: jekyll-theme-leap-day
+permalink: /:year:month:day/:title
+url: https://jeaimehp.github.io
+#baseurl: /codeattacc-connected
+baseurl: 
+
+# variables
+name: "Code@TACC:Connected"
+description: "The purpose of this site is to house and present the course cirruculum, materials and code/scripts used in the Code@TACC:Connected camp. Connected is an innovative and exciting summer program that lets students explore where coding meets communities. You will use DIY sensors to collect data and create models for environmentally relevant problems."
+google_verification: null
+
+
+# File management
+include: [".htaccess"]
+exclude: ["README.md", "LICENSE"]
+
+# Sass
+sass:
+  style: :compressed
+  sass_dir: _sass
+
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    disable : true
