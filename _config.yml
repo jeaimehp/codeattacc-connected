@@ -1,7 +1,7 @@
 permalink: /:year:month:day/:title
-url: https://jeaimehp.github.io/codeattacc-connected
-#baseurl: /codeattacc-connected
-baseurl: https://jeaimehp.github.io/codeattacc-connected
+url: https://jeaimehp.github.io
+baseurl: /codeattacc-connected
+#baseurl: 
 
 # variables
 name: "Code@TACC:Connected"
