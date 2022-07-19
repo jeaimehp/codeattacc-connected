@@ -1,5 +1,6 @@
 ---
 layout: home
+title: Home
 ---
 
 # Hard Skills:
@@ -17,7 +18,7 @@ layout: home
 * Data Visualization
 * Data Analysis
 * Mixed Media Design
- 
+
 
 # Soft Skills:
 
