@@ -6,9 +6,21 @@ title: page.title
 
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.tldr %}
+    <strong>tl;dr:</strong> {{ page.tldr }}
+    {% endif %}
     <p class="post-meta">Released on {{ page.date | date: "%A" }} {{ page.date | date: site.dateformat }}</p>
   </header>
+  {% if page.thumbnail %}
+  <div class="thumbnail">
+    <div class="center-cropped" style="margin-top:5px;margin-bottom:5px;background-image: url('{{ page.thumbnail | prepend: site.baseurl }}');">
+      <img src="{{ page.thumbnail | prepend: site.baseurl }}"/>
+    </div>
+  </div>
+  {% endif %}
+  
 
+  
   <div>
     <p style="font-weight: bold">
       {% if page.pdf %}

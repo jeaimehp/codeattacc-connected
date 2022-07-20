@@ -1,6 +1,7 @@
 ---
 type: raw_event
-date: 2022-07-25T09:00:00-5:00
+date: 2022-07-25
+#date: 2022-07-25T09:00:00-5:00
 name: Session
 description: 'Day 1 - Sensor Construction'
 hide_from_announcments: true
