@@ -11,11 +11,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title> Home - Code@TACC:Connected / Summer 2022 </title>
-  <meta name="description" content="Home - Code@TACC:Connected / Summer 2022">
+  <title> README.md - Code@TACC:Connected / Summer 2022 </title>
+  <meta name="description" content="README.md - Code@TACC:Connected / Summer 2022">
   
   <link rel="stylesheet" href="/_css/main.css">
-  <link rel="canonical" href="http://0.0.0.0:4000/">
+  <link rel="canonical" href="http://0.0.0.0:4000/README">
   <link rel="alternate" type="application/rss+xml" title="Code@TACC:Connected / Summer 2022 - Texas Advanced Computing Center Education and Outreach Group" href="http://0.0.0.0:4000/feed.xml" />
 <link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
 <link href='https://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
@@ -107,79 +107,50 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <h1 id="codetacc-connected">Code@TACC: Connected</h1>
+<p>Contains scripts and code in support of the Code@TACC:Connected camp</p>
 
-    <h1>Code@TACC:Connected <span style="font-size: 20px;color: #0006;">/ Summer 2022 </span></h1>
+<p><strong>Public Site:</strong> <a href="https://jeaimehp.github.io/codeattacc-connected/">https://jeaimehp.github.io/codeattacc-connected/</a></p>
 
-    
-
-
-
-
-
-
-
-
-
-</div>
-   
-    
-    <img src="https://jeaimehp.github.io/codeattacc-connected/_images/connected-1.jpeg" alt="Code at TACC Trip" />    
-    <br />
-
-    <h2>Camp Description</h2>
-    <p>Connected is an innovative and exciting virtual summer program that lets students explore where coding meets communities.The Code@TACC: Connected STEM Camp provides an opportunity for students to fully experience the scientific process from sensor design to analyzing and presenting results-based narratives visually. The two-week virtual camp begins with environmental sensor construction while correlating them to human senses using the Raspberry Pi platform. The sensors are then taken into the field to collect in situ sample data. The data includes atmospheric, auditory, surface, and radiance derived sources from multiple biomes. The collected data is then analyzed by the students both computationally within JupyterNotebook’s written in Python, and aesthetically through physical representations. Scientific hypotheses are then formed through which the results are presented in a fair-like atmosphere. The format of the final presentations use physical dioramas combined with data-driven visual simulations emitting from student-made electronic designs. In short, the camp compresses an undergrad-level research experience in ecology/geoscience/environmental science, computer science, electrical engineering, and creative design into a 10-day enrichment program. The result of the hackathon-like atmosphere generates a sense of ownership of the projects within the participants which leads to intimate knowledge gain based on both wide and deep understanding through research. mer 2022</p>
-    
-    <h1 id="hard-skills">Hard Skills:</h1>
-
+<h2 id="prerequisites">Prerequisites</h2>
 <ul>
-  <li>Python Programming</li>
-  <li>Electronics Design</li>
-  <li>Field monitoring</li>
-  <li>Statistical Analysis</li>
-  <li>Interdisciplinary Research</li>
-  <li>Project Management</li>
-  <li>Informatics</li>
-  <li>Linux Basics</li>
-  <li>Microcontroller/Single Board Computer Use</li>
-  <li>Environmental Sensing</li>
-  <li>Data Visualization</li>
-  <li>Data Analysis</li>
-  <li>Mixed Media Design</li>
-</ul>
-
-<h1 id="soft-skills">Soft Skills:</h1>
-
-<ul>
-  <li>Virtual Teamwork/Team Building</li>
-  <li>Public Speaking</li>
-  <li>Virtual Collaboration</li>
-  <li>Introspection</li>
-  <li>Community Thinking</li>
-  <li>Logical Thinking</li>
-  <li>Computational Thinking</li>
-</ul>
-
-<h1 id="communication-methods">Communication Methods</h1>
-<p>You can email our program at  outreach@tacc.utexas.edu.</p>
-
-
-    
-    <h2>Previous Offerings</h2>
-    <ul class="previous-offerings">
-    
-    <li><a href="https://www.tacc.utexas.edu/education/k-12-outreach/students/code-at-tacc-connected">Summer 2018</a></li>
-    
-    <li><a href="https://www.tacc.utexas.edu/education/k-12-outreach/students/code-at-tacc-connected">Summer 2019</a></li>
-    
-    <li><a href="https://www.tacc.utexas.edu/education/k-12-outreach/students/code-at-tacc-connected">Summer 2021 (Virtual)</a></li>
-    
+  <li>RaspberryPi with Raspbian installed and updated
+    <ul>
+      <li>This was written and tested on a <a href="https://www.adafruit.com/product/4796">RaspberryPi 400</a></li>
     </ul>
-    
+  </li>
+  <li>Adafruit <a href="https://www.adafruit.com/product/4863">Cyberdeck</a></li>
+  <li>Pimoroni Enviro – Indoor Environmental Monitor for RaspPi - <a href="https://shop.pimoroni.com/products/enviro?variant=31155658457171">PIM458</a></li>
+</ul>
 
-    <br>
-    
-</div>
+<p>[<em>Note: These scripts may run on other RPi variants and operating systems but they have not been tested.</em>]</p>
+
+<hr />
+
+<h2 id="to-load-all-needed-software">To load all needed software:</h2>
+<ol>
+  <li>Within Raspbian open a Terminal window</li>
+  <li>Type <code class="language-plaintext highlighter-rouge">git clone https://github.com/jeaimehp/codeattacc-connected.git</code></li>
+  <li>Type <code class="language-plaintext highlighter-rouge">cd codeattacc-connected</code></li>
+  <li>Type <code class="language-plaintext highlighter-rouge">./rpi-setup.bash</code></li>
+  <li>Press <code class="language-plaintext highlighter-rouge">y</code> and press <code class="language-plaintext highlighter-rouge">[Enter]</code> at any prompts. Note: The final one will restart your RPi</li>
+</ol>
+
+<hr />
+
+<h2 id="materials">Materials</h2>
+
+<h3 id="raspberrypi-400">RaspberryPi 400</h3>
+<p><img src="https://cdn-shop.adafruit.com/970x728/4796-12.jpg" alt="rpi400" /></p>
+
+<h3 id="adafruit-cyberdeck">Adafruit Cyberdeck</h3>
+<p><img src="https://cdn-shop.adafruit.com/145x109/4863-09.jpg" alt="cyberdeck" /></p>
+
+<h3 id="pimoroni-enviro-pim458">Pimoroni Enviro+ PIM458</h3>
+<p><img src="https://cdn.shopify.com/s/files/1/0174/1800/products/Enviro-Plus-pHAT-on-white-2_300x300.jpg?v=1573820030" alt="pim458" />  <img src="https://cdn.shopify.com/s/files/1/0174/1800/products/Enviro-mini-HAT-_1-of-3_300x300.jpg?v=1573820041" alt="pin458headers" /></p>
+
+<hr />
+
 
       </div>
     </div>
