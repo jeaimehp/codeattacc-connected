@@ -1,8 +1,9 @@
 ---
 type: raw_event
-date: 2022-07-28T09:00:00-5:00
+date: 2022-07-28
 name: Session
 description: 'Day 4 - Electronics'
+hide_time: true
 hide_from_announcments: true
 ---
 - **Make it blink!**

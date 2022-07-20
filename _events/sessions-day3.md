@@ -1,8 +1,9 @@
 ---
 type: raw_event
-date: 2022-07-27T10:00:00-5:00
+date: 2022-07-27
 name: Session
 description: 'Day 3 - Data Analysis'
+hide_time: true
 hide_from_announcments: true
 ---
 - **Sensor Data Check**
