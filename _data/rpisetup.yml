@@ -1,0 +1,78 @@
+screenbuild:
+  - name: 'Step 1'
+    youtubelink: https://youtu.be/c_Jnj68qnaU
+    embedid: c_Jnj68qnaU  
+
+  - name: Step 2
+    youtubelink: https://youtu.be/QTOPv9WsbiY
+    embedid: QTOPv9WsbiY  
+
+  - name: Step 3
+    youtubelink: https://youtu.be/Pxj6A8TmqhU
+    embedid: Pxj6A8TmqhU
+   
+  - name: Step 4
+    youtubelink: https://youtu.be/_e4j2Rl8qhE
+    embedid: _e4j2Rl8qhE
+   
+  - name: Step 5
+    youtubelink: https://youtu.be/HmPSXtt9s-Q
+    embedid: HmPSXtt9s-Q
+   
+  - name: Step 6
+    youtubelink: https://youtu.be/Lp5YyjFMK20
+    embedid: Lp5YyjFMK20
+   
+  - name: Step 7
+    youtubelink: https://youtu.be/iaB4XiIhlAk
+    embedid: iaB4XiIhlAk
+    description: 'Screen plug in HDMI and USB cables'  
+
+  - name: Step 8
+    youtubelink: https://youtu.be/YxHryO3ZtpI
+    embedid: YxHryO3ZtpI
+    description: 'RPi Plug in screen, keyboard, mouse, and power cables'  
+
+  - name: Step 9
+    youtubelink: https://youtu.be/DHBDDSeBrSc
+    embedid: DHBDDSeBrSc
+    description: 'First power up'  
+
+  - name: Step 10
+    youtubelink: https://youtu.be/w_N2NL747P0
+    embedid: w_N2NL747P0
+    description: '[Long]Raspbian configuration and updates'
+   
+  - name: 'Condensed Raspbian configuration and updates'
+    youtubelink: https://youtu.be/4-uUNoeo6yk
+    embedid: 4-uUNoeo6yk
+    description: 'Raspbian configuration and updates'
+
+
+devenvironment:
+  - name: "RPi Developmental Environment Install"
+    youtubelink: https://youtu.be/CM9suFGYck0
+    embedid: CM9suFGYck0
+
+
+environplus:
+  - name: 'Enviro+ and Cyberdeck Installation on RPi400'
+    youtubelink: https://youtu.be/UuyAhkKLinQ
+    embedid: UuyAhkKLinQ
+    #description:   
+
+  - name: 'Enviro+ and RPi First Sensor and Screen Test'
+    youtubelink: https://youtu.be/Tn-XHFkqgC8
+    embedid: Tn-XHFkqgC8
+    #description: 
+
+breadboard:
+  - name: 'Breadboard RPi GPIO Extention Install on RPi'
+    youtubelink: https://youtu.be/gIqaP5n-YL0
+    embedid: gIqaP5n-YL0
+    #description:   
+
+  - name: 'Breadboard RPi Install with Better Cable Placement'
+    youtubelink: https://youtu.be/MYPYpMK6vRM
+    embedid: MYPYpMK6vRM
+    #description:   

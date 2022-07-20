@@ -501,7 +501,8 @@ a.tosu {
     .responsive-table .col-4:before {
       content: none; }
   .responsive-table .col-1-2 {
-    text-align: left; }
+    text-align: left;
+    font-style: oblique; }
   .responsive-table .date-spliter {
     display: none; } }
 

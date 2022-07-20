@@ -12,7 +12,7 @@ items:
   icon_class: fas fa-book-reader
 
 - url: /code/
-  name: Example Code
+  name: Sample Code
   icon_class: fas fa-user-graduate
 
 - url: /project/

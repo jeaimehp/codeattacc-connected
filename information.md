@@ -15,7 +15,7 @@ permalink: /information/
 4. Type <code>./rpi-setup.bash</code>
 5. Press <code>y</code> and press [Enter] at any prompts. Note: The final one will restart your RPi
 
-* **[Code@TACC:Connected General Termonology and Reference Document](/_images/pdf/Reference%20Document%20Connected.pdf)**
+* **[Code@TACC:Connected General Terminology and Reference Document](/_images/pdf/Reference%20Document%20Connected.pdf)**
 <br>
 
 ---
@@ -24,10 +24,10 @@ permalink: /information/
 
 {% include image.html url="/_images/rpi_in_box.jpeg" caption="RPi400 in case with Enviro+ and Screen" width=175 align="right" %}
 
-* **[RPi Beginners Guide 4thEd English v2](/assets/pdfs/BeginnersGuide-4thEd-Eng_v2.pdf)**
-* **[7in HDMI LCD Manual](/assets/pdfs/7in-HDMI-LCD%20Manual.pdf)**
+* **[RPi Beginners Guide 4thEd English v2](/_images/pdf/BeginnersGuide-4thEd-Eng_v2.pdf)**
+* **[7in HDMI LCD Manual](/_images/pdf/7in-HDMI-LCD%20Manual.pdf)**
 * **[Pimoroni Enviro + Air Quality(PIM458)](https://shop.pimoroni.com/products/enviro?variant=31155658457171)**
-  * [Pimoroni Enviro + Air Quality Getting Started](/assets/pdfs/Getting%20Started%20with%20EnviroPlus.pdf)
+  * [Pimoroni Enviro + Air Quality Getting Started](/_images/pdf/Getting%20Started%20with%20EnviroPlus.pdf)
   * [Pimoroni Enviro+ Github (Python Libraries)](https://github.com/pimoroni/enviroplus-python)
   * [Pimoroni Enviro+ Pinout Diagram](https://pinout.xyz/pinout/enviro_plus)
   * **Sensors**

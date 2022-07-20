@@ -12,13 +12,13 @@ layout: default
     <ul class="responsive-table" style="margin-left: 0;">
         <li class="table-header">
             <!-- <div class="col col-1">Event</div> -->
-            <div class="col col-1-2">Date</div>
+            <div class="col col-2">Date</div>
             <!-- <div class="col col-2">Description</div> -->
             <div class="col col-4">Description</div>
         </li>
-        
+        <!--
         {% assign all_assignment_dues = site.assignments | map: "due_event" %}
-
+        -->
         {% assign all_events = site.events | concat: site.lectures %}
         {% assign all_events = all_events | concat: site.assignments %}
         {% assign all_events = all_events | concat: all_assignment_dues %}
