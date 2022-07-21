@@ -11,11 +11,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title> Home - Code@TACC:Connected / Summer 2022 </title>
-  <meta name="description" content="Home - Code@TACC:Connected / Summer 2022">
+  <title> Pimoroni Enviro + Air Quality(PIM458) with Particulate Sensor - Code@TACC:Connected / Summer 2022 </title>
+  <meta name="description" content="Enviro+ and Cyberdeck Installation⚠ NOTE: When Connecting/Disconnecting the Cyberdeck and/or Enviro+, shutdown and UNPLUG the RaspberryPi 400 first!Needed Ma...">
   
   <link rel="stylesheet" href="/_css/main.css">
-  <link rel="canonical" href="http://0.0.0.0:4000/">
+  <link rel="canonical" href="http://0.0.0.0:4000/assignments/EnviroPlus%20Setup">
   <link rel="alternate" type="application/rss+xml" title="Code@TACC:Connected / Summer 2022 - Texas Advanced Computing Center Education and Outreach Group" href="http://0.0.0.0:4000/feed.xml" />
 <link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
 <link href='https://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
@@ -107,110 +107,120 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <div class="post">
 
-    <h1>Code@TACC:Connected <span style="font-size: 20px;color: #0006;">/ Summer 2022 </span></h1>
+  <header class="post-header">
+    <h1 class="post-title">Pimoroni Enviro + Air Quality(PIM458) with Particulate Sensor</h1>
+    <p class="post-meta">Released on Monday 07/25/2022</p>
+  </header>
+  
+  
+  <div>
+    <p style="font-weight: bold">
+      
+      
+      
+    </p>
 
-    
+  </div>
+
+  <br />
+  <article class="post-content">
+    <h2 id="enviro-and-cyberdeck-installation">Enviro+ and Cyberdeck Installation</h2>
+<p style="border: 4px solid red; text-align: center;"><strong style="color: red; font-size: 36px;">⚠ NOTE: When Connecting/Disconnecting the Cyberdeck and/or Enviro+, shutdown and UNPLUG the RaspberryPi 400 first!</strong></p>
+
+<h2 id="needed-materials">Needed Materials:</h2>
+
+<table>
+    <tr>
+        <td><dl class="wp-caption alignright" style="max-width: 175px">
+
+<dt><a href="/_images/pdf/7in-HDMI-LCD%20Manual.pdf"><img class="" src="/_images/build-pictures/RaspberryPI 400.jpeg" alt="RaspberryPi 400" /></a></dt>
+
+<dd>RaspberryPi 400</dd>
+</dl>
+</td>
+        <td><dl class="wp-caption alignright" style="max-width: 175px">
+
+<dt><a href=""><img class="" src="/_images/build-pictures/CyberDeck.jpeg" alt="Adafruit Cyberdeck" /></a></dt>
+
+<dd>Adafruit Cyberdeck</dd>
+</dl>
+</td>
+        <td><dl class="wp-caption alignright" style="max-width: 175px">
+
+<dt><a href="https://shop.pimoroni.com/products/enviro?variant=31155658457171"><img class="" src="/_images/build-pictures/Pimoroni PIM458.jpeg" alt="Pimoroni Enviro + Air Quality PIM458" /></a></dt>
+
+<dd>Pimoroni Enviro + Air Quality PIM458</dd>
+</dl>
+</td>
+    </tr>
+</table>
+<hr />
+
+<h2 id="sensor-test-code">Sensor Test Code</h2>
+
+<table>
+    <tr>
+        <td><dl class="wp-caption align" style="max-width: 500px">
+
+<dt><a href=""><img class="" src="/_images/build-pictures/envrioPlus test.png" alt="Enviro+ Sensor Test" /></a></dt>
+
+<dd>Enviro+ Sensor Test</dd>
+</dl>
+ </td>
+        <td> 
+        <h2>Testing the Enviro+:</h2>
+        <ol>
+           <li> Within Raspbian open a Terminal window</li> 
+           <li> Type <code>ls</code> to list(view) all files </li> 
+           <li> Type <code>cd codeattacc-connected</code> and press [Enter] </li> 
+           <li> Type <code>ls</code> to list(view) all files and look for <code>sensortest.bash</code> </li> 
+           <li> Type <code>./sensortest.bash</code> and check the screen on your Enviro+ for information </li> 
+           <li> [Note: If you receive an error of do not have a display please ask for assistance.] </li> 
+        </ol>
+        </td>
+    </tr>
+</table>
+
+<h2 id="video-walk-through">Video Walk Through</h2>
+
+<p>Reference - <a href="/_images/pdf/Getting%20Started%20with%20EnviroPlus.pdf">Pimoroni Enviro + Air Quality Getting Started</a></p>
+
+<div style="border-top: 2px solid black;">
+<h2>Enviro+ and Cyberdeck Installation on RPi400</h2>
+
+<a href="https://youtu.be/UuyAhkKLinQ">[YouTube Link]</a>
+<br />
 
 
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UuyAhkKLinQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<br />
 
 
 
+<div style="border-top: 2px solid black;">
+<h2>Enviro+ and RPi First Sensor and Screen Test</h2>
+
+<a href="https://youtu.be/Tn-XHFkqgC8">[YouTube Link]</a>
+<br />
 
 
 
-<div class="announcement-box" style="margin-top:30px">
-<h2>Updates</h2>
-<ul>
-    
-    <li class="no-p-margin">
-        
-            
-                New Assignment released: [<a href="/assignments/RPi%20Development%20Setup">Developmental Enviroment Setup</a>]
-            
-        
-    </li>
-    
-    <li class="no-p-margin">
-        
-            
-                New Assignment released: [<a href="/assignments/EnviroPlus%20Setup">Pimoroni Enviro + Air Quality(PIM458) with Particulate Sensor</a>]
-            
-        
-    </li>
-    
-    <li class="no-p-margin">
-        
-            
-                New Assignment released: [<a href="/assignments/RPi%20Setup">RPi Setup and Configuration</a>]
-            
-        
-    </li>
-    
-</ul>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Tn-XHFkqgC8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<br />
+
+
 
 </div>
-   
-    
-    <img src="https://jeaimehp.github.io/codeattacc-connected/_images/connected-1.jpeg" alt="Code at TACC Trip" />    
-    <br />
-
-    <h2>Camp Description</h2>
-    <p>Connected is an innovative and exciting virtual summer program that lets students explore where coding meets communities.The Code@TACC: Connected STEM Camp provides an opportunity for students to fully experience the scientific process from sensor design to analyzing and presenting results-based narratives visually. The two-week virtual camp begins with environmental sensor construction while correlating them to human senses using the Raspberry Pi platform. The sensors are then taken into the field to collect in situ sample data. The data includes atmospheric, auditory, surface, and radiance derived sources from multiple biomes. The collected data is then analyzed by the students both computationally within JupyterNotebook’s written in Python, and aesthetically through physical representations. Scientific hypotheses are then formed through which the results are presented in a fair-like atmosphere. The format of the final presentations use physical dioramas combined with data-driven visual simulations emitting from student-made electronic designs. In short, the camp compresses an undergrad-level research experience in ecology/geoscience/environmental science, computer science, electrical engineering, and creative design into a 10-day enrichment program. The result of the hackathon-like atmosphere generates a sense of ownership of the projects within the participants which leads to intimate knowledge gain based on both wide and deep understanding through research.</p>
-    
-    <h1 id="hard-skills">Hard Skills:</h1>
-
-<ul>
-  <li>Python Programming</li>
-  <li>Electronics Design</li>
-  <li>Field monitoring</li>
-  <li>Statistical Analysis</li>
-  <li>Interdisciplinary Research</li>
-  <li>Project Management</li>
-  <li>Informatics</li>
-  <li>Linux Basics</li>
-  <li>Microcontroller/Single Board Computer Use</li>
-  <li>Environmental Sensing</li>
-  <li>Data Visualization</li>
-  <li>Data Analysis</li>
-  <li>Mixed Media Design</li>
-</ul>
-
-<h1 id="soft-skills">Soft Skills:</h1>
-
-<ul>
-  <li>Virtual Teamwork/Team Building</li>
-  <li>Public Speaking</li>
-  <li>Virtual Collaboration</li>
-  <li>Introspection</li>
-  <li>Community Thinking</li>
-  <li>Logical Thinking</li>
-  <li>Computational Thinking</li>
-</ul>
-
-<h1 id="communication-methods">Communication Methods</h1>
-<p>You can email our program at  outreach@tacc.utexas.edu.</p>
-
-
-    
-    <h2>Previous Offerings</h2>
-    <ul class="previous-offerings">
-    
-    <li><a href="https://www.tacc.utexas.edu/education/k-12-outreach/students/code-at-tacc-connected">Summer 2018</a></li>
-    
-    <li><a href="https://www.tacc.utexas.edu/education/k-12-outreach/students/code-at-tacc-connected">Summer 2019</a></li>
-    
-    <li><a href="https://www.tacc.utexas.edu/education/k-12-outreach/students/code-at-tacc-connected">Summer 2021 (Virtual)</a></li>
-    
-    </ul>
-    
-
-    <br>
-    
 </div>
 
+  </article>
+
+</div>
       </div>
     </div>
 

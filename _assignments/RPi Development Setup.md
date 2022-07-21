@@ -11,10 +11,10 @@ due_event:
     type: code
     date: 2022-07-25T23:59:00+3:30
     title: Additional Information 
-    description: 'Pimoroni Enviro + Air Quality(PIM458)'
-    url: 'https://shop.pimoroni.com/products/enviro?variant=31155658457171'
-    addlinktitle: 'General Terminology'
-    solutions: '/_images/pdf/Reference%20Document%20Connected.pdf'
+    description: 'General Terminology'
+    url: '/_images/pdf/Reference%20Document%20Connected.pdf'
+    #addlinktitle: 
+    #solutions: 
     hide_time: true
 ---
 **To load all needed software:**
@@ -27,6 +27,19 @@ due_event:
  
  ---
 ## Video Walk Through
-[[YouTube Link]](https://www.youtube.com/watch?v=CM9suFGYck0)
+{% for vid in site.data.rpisetup.devenvironment %}
+<div style="border-top: 2px solid black;">
+<h2>{{ vid.name }}</h2>
+{% if vid.description %}
+{{ vid.description }}
+{% endif %}
+<a href="{{ vid.youtubelink }}">[YouTube Link]</a>
+<br>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CM9suFGYck0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include youtubeembed.html  ytid=vid.embedid %}
+
+<br>
+
+
+{% endfor %}
+</div>
