@@ -4,6 +4,7 @@ date: 2022-07-25T12:59:00+3:30
 title: 'RPi Setup and Configuration'
 schedtag: Linux(Raspbian)
 hide_time: true
+hide_from_announcments: true
 #pdf: /static_files/assignments/asg.pdf
 #attachment: /static_files/assignments/asg.zip
 #solutions: /static_files/assignments/asg_solutions.pdf

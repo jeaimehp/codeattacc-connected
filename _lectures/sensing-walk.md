@@ -4,6 +4,7 @@ type: lecture
 date: 2022-07-25T12:59:00+3:30
 title: Sensing Walk
 lecttag: 'Tutorial'
+hide_from_announcments: true
 tldr: "Collect data on the environment using your senses."
 #thumbnail: /static_files/presentations/lec.jpg
 #links: 

@@ -4,6 +4,7 @@ date: 2022-07-28T13:59:00+3:30
 title: 'Make it blink!'
 schedtag: RPI GPIO
 hide_time: true
+hide_from_announcments: true
 #pdf: /static_files/assignments/asg.pdf
 attachment: '/Notebook/Simple Light GPIO 21.ipynb'
 solutions: 'https://github.com/jeaimehp/codeattacc-connected/blob/main/Notebook/Simple%20Light%20GPIO%2021.ipynb'
