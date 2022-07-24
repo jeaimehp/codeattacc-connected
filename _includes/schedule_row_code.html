@@ -17,7 +17,7 @@
     </div> 
     [<a href="{{ include.event.url | prepend: site.baseurl}}">{{ include.event.description }}</a>]
     {% if include.event.solutions %}
-    [<a href="{{ include.event.solutions | prepend: site.baseurl}}">{{ include.event.addlinktitle }}</a>]
+    | [<a href="{{ include.event.solutions | prepend: site.baseurl}}">{{ include.event.addlinktitle }}</a>]
     {% endif %}
     </strong>
 </div>

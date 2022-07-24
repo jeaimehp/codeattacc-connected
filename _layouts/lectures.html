@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: default
+title: page.title
 ---
 
 {{ content }}
@@ -16,9 +17,9 @@ layout: page
     </div>
     {% endif %}
     <div class="content">
-        <span style="font-weight: bold;">{{ lecture.title }}</span><br>
+        <span style="font-weight: bold;"><h1>{{ lecture.title }}</h1></span><br>
 
-        <strong>tl;dr:</strong> {{ lecture.tldr }}
+        {{ lecture.tldr }}
         <br/>
         <strong>
         {% include lecture_links.html lecture=lecture %}

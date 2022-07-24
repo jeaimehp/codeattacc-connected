@@ -13,13 +13,13 @@ title: page.title
   <div>
     <p style="font-weight: bold">
       {% if page.pdf %}
-      [<a href="{{ page.pdf | prepend: site.baseurl }}">problems</a>]
+      | [<a href="{{ page.pdf | prepend: site.baseurl }}">Problems</a>]
       {% endif %}
       {% if page.attachment %}
-      [<a href="{{ page.attachment | prepend: site.baseurl }}">attachment</a>]
+      | [<a href="{{ page.attachment | prepend: site.baseurl }}">Sample Code</a>]
       {% endif %}
       {% if page.solutions %}
-      [<a href="{{ page.solutions | prepend: site.baseurl }}">solutions</a>]
+      | [<a href="{{ page.solutions | prepend: site.baseurl }}">Solutions</a>]
       {% endif %}
     </p>
 
