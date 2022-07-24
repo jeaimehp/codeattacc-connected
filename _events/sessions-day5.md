@@ -1,5 +1,5 @@
 ---
-type: exam
+type: raw_event
 date: 2022-07-29
 name: Session
 description: 'Day 5 - Project'
