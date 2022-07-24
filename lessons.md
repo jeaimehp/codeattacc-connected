@@ -1,5 +1,5 @@
 ---
 layout: lectures
-title: Sessions
-permalink: /lessons/
+title: Examples
+permalink: /examples/
 ---

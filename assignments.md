@@ -1,5 +1,5 @@
 ---
 layout: assignments
-title: Example Code
-permalink: /code/
+title: Sessions
+permalink: /sessions/
 ---

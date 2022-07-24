@@ -7,13 +7,13 @@ items:
   name: Schedule
   icon_class: fas fa-calendar-alt
 
-- url: /lessons/
-  name: Lessons
-  icon_class: fas fa-book-reader
-
-- url: /code/
-  name: Sample Code
+- url: /sessions/
+  name: Sessions
   icon_class: fas fa-user-graduate
+
+- url: /examples/
+  name: Examples
+  icon_class: fas fa-book-reader
 
 - url: /project/
   name: Final Project
