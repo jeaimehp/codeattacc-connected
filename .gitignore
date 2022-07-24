@@ -1,2 +1,6 @@
 # keep the local _config.yml
 _config.yml
+_site
+
+# dont upload the enviro+ library
+enviroplus-python
