@@ -20,5 +20,5 @@ links:
 ~Lao Tzu </blockquote>
 
 **So let's...**
-<blockquote>  "get to steppin!"
+<blockquote>  "Get to steppin!"
 ~Martin Lawrence </blockquote>
