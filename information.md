@@ -15,7 +15,7 @@ permalink: /information/
 4. Type <code>./rpi-setup.bash</code>
 5. Press <code>y</code> and press [Enter] at any prompts. Note: The final one will restart your RPi
 
-* **[Code@TACC:Connected General Terminology and Reference Document](/_images/pdf/Reference Document Connected.pdf)**
+* **[Code@TACC:Connected General Terminology and Reference Document](/codeattacc-connected/_images/pdf/Reference Document Connected.pdf)**
 <br>
 
 ---
