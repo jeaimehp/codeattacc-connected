@@ -8,12 +8,12 @@ course_description: "Connected is an innovative and exciting virtual summer prog
 course_semester: "Summer 2022"
 
 # Git Pages Settings
-baseurl: "/codeattacc-connected" # the subpath of your site, e.g. /blog/
-url: "https://jeaimehp.github.io/" # the base hostname & protocol for your site
+#baseurl: "/codeattacc-connected" # the subpath of your site, e.g. /blog/
+#url: "https://jeaimehp.github.io/" # the base hostname & protocol for your site
 
 # Local Settings
-#baseurl: "" # the subpath of your site, e.g. /blog/
-#url: "" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
 
 schoolname: "Texas Advanced Computing Center Education and Outreach Group"
 schoolurl: "https://www.tacc.utexas.edu/education/k-12-outreach"
