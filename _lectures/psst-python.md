@@ -25,7 +25,7 @@ tldr: "Student presentations on Python Coding"
   <li> {{ team.duo2name }} </li>
 </ul>
 <br>
-<h3><a href=" {{ team.pythoncodeexample }}">[Sample Code]</a>
+<h3><a href=" https://github.com/jeaimehp/codeattacc-connected/blob/main{{ team.pythoncodeexample }}">[Sample Code]</a>
 <h3>Poster</h3>
 {% include image.html url=team.pythonposter width=400 %}
 
