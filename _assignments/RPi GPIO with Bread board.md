@@ -15,7 +15,7 @@ due_event:
     description: 'General Terminology'
     url: '/_images/pdf/Reference%20Document%20Connected.pdf'
     addlinktitle: LED on GPIO 21 JupyterNotebook  
-    solutions: '/Notebook/Simple Light GPIO 21.ipynb'
+    solutions: 'https://github.com/jeaimehp/codeattacc-connected/blob/main/Notebook/Simple%20Light%20GPIO%2021.ipynb'
     hide_time: true
 ---
 # Objective
