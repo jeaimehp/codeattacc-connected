@@ -15,7 +15,16 @@ tldr: "Student collected datasets"
 #    - url: https://google.com
 #      name: slides
 ---
-## Sensors Overview:
+## Student Datasets:
+
+**Combined Dataset Links from Brackenridge Field Laboratory on July 26, 2022:**
+- [Site 1 (csv)](https://github.com/jeaimehp/codeattacc-connected/blob/main/static_files/group_datasets/connected22/site-1_all.csv)
+- [Site 2 (csv)](https://github.com/jeaimehp/codeattacc-connected/blob/main/static_files/group_datasets/connected22/site-2_all.csv)
+- [Site 3 (csv)](https://github.com/jeaimehp/codeattacc-connected/blob/main/static_files/group_datasets/connected22/site-3_all.csv)
+- [Site 4 (csv)](https://github.com/jeaimehp/codeattacc-connected/blob/main/static_files/group_datasets/connected22/site-4_all.csv)
+- [All Datasets (zip)](https://github.com/jeaimehp/codeattacc-connected/blob/main/static_files/group_datasets/connected22/all-site-datasets.zip)
+
+
 {% for team in site.data.teaminfo.connected22 %}
 <div style="border-top: 2px solid black;">
 <h2>Dataset Collected by: {{ team.quadname }}</h2>
