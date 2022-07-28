@@ -29,31 +29,31 @@ tldr: "Student collected datasets"
   <li> {{ team.duo1name }} </li>
     <ul>
     {% if team.duo1data_site1 %}
-      <li><a href=" {{ team.duo1data_site1 }}">[Site 1 (csv)]</a></li>
+      <li><a href="https://github.com/jeaimehp/codeattacc-connected/blob/main{{ team.duo1data_site1 }}">[Site 1 (csv)]</a></li>
     {% endif %}
     {% if team.duo1data_site2 %}
-     <li><a href=" {{ team.duo1data_site2 }}">[Site 2 (csv)]</a> </li>
+     <li><a href="https://github.com/jeaimehp/codeattacc-connected/blob/main{{ team.duo1data_site2 }}">[Site 2 (csv)]</a> </li>
     {% endif %}
     {% if team.duo1data_site3 %}
-      <li><a href=" {{ team.duo1data_site3 }}">[Site 3 (csv)]</a> </li>
+      <li><a href="https://github.com/jeaimehp/codeattacc-connected/blob/main{{ team.duo1data_site3 }}">[Site 3 (csv)]</a> </li>
     {% endif %}
     {% if team.duo1data_site4 %}
-      <li><a href=" {{ team.duo1data_site4 }}">[Site 4 (csv)]</a> </li>
+      <li><a href="https://github.com/jeaimehp/codeattacc-connected/blob/main{{ team.duo1data_site4 }}">[Site 4 (csv)]</a> </li>
     {% endif %}
     </ul>
   <li> {{ team.duo2name }} </li>
     <ul>
     {% if team.duo2data_site1 %}
-      <li><a href=" {{ team.duo2data_site1 }}">[Site 1 (csv)]</a> </li>
+      <li><a href="https://github.com/jeaimehp/codeattacc-connected/blob/main{{ team.duo2data_site1 }}">[Site 1 (csv)]</a> </li>
     {% endif %}
     {% if team.duo2data_site2 %}
-     <li><a href=" {{ team.duo2data_site2 }}">[Site 2 (csv)]</a> </li>
+     <li><a href="https://github.com/jeaimehp/codeattacc-connected/blob/main{{ team.duo2data_site2 }}">[Site 2 (csv)]</a> </li>
     {% endif %}
     {% if team.duo2data_site3 %}
-      <li><a href=" {{ team.duo2data_site3 }}">[Site 3 (csv)]</a> </li>
+      <li><a href="https://github.com/jeaimehp/codeattacc-connected/blob/main{{ team.duo2data_site3 }}">[Site 3 (csv)]</a> </li>
     {% endif %}
     {% if team.duo2data_site4 %}
-     <li><a href=" {{ team.duo2data_site4 }}">[Site 4 (csv)]</a> </li>
+     <li><a href="https://github.com/jeaimehp/codeattacc-connected/blob/main{{ team.duo2data_site4 }}">[Site 4 (csv)]</a> </li>
     {% endif %}
     </ul>
 </ul>
