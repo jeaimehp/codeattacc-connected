@@ -17,10 +17,8 @@ title: page.title
     </div>
     {% endif %}
     <div class="content">
-        <span style="font-weight: bold;"><h1>{{ lecture.title }}</h1></span>
-        <strong>
-        [<a href="{{ lecture.url | prepend: site.baseurl}}">Link</a>]<br>
-          </strong>
+        <span style="font-weight: bold;"><h1><a href="{{ lecture.url | prepend: site.baseurl}}">{{ lecture.title }}</a></h1></span>
+      
           <br>
         {{ lecture.tldr }}
         <br/>
