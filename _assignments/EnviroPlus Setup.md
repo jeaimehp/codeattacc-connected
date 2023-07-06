@@ -1,6 +1,6 @@
 ---
 type: assignment
-date: 2022-07-25T14:59:00+3:30
+date: 2023-07-10T14:59:00+3:30
 title: 'Pimoroni Enviro + Air Quality(PIM458) with Particulate Sensor'
 schedtag: Sensor
 hide_time: true
@@ -10,7 +10,7 @@ hide_from_announcments: true
 #solutions: /static_files/assignments/asg_solutions.pdf
 due_event: 
     type: code
-    date: 2022-07-25T23:59:00+3:30
+    date: 2023-07-10T23:59:00+3:30
     title: References 
     description: 'Pimoroni Enviro + Air Quality(PIM458)'
     url: 'https://shop.pimoroni.com/products/enviro?variant=31155658457171'

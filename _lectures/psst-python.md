@@ -1,7 +1,7 @@
 ---
 layout: page
 type: lecture
-date: 2022-07-27T12:59:00+3:30
+date: 2023-07-12T12:59:00+3:30
 title: 'Pssst! Python'
 lecttag: 'Student Presentations'
 hide_from_announcments: false

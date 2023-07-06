@@ -1,6 +1,6 @@
 ---
 type: assignment
-date: 2022-07-28T13:59:00+3:30
+date: 2023-07-14T13:59:00+3:30
 title: 'Make it blink!'
 schedtag: RPI GPIO
 hide_time: true
@@ -10,7 +10,7 @@ attachment: '/Notebook/Simple Light GPIO 21.ipynb'
 solutions: 'https://github.com/jeaimehp/codeattacc-connected/blob/main/Notebook/Simple%20Light%20GPIO%2021.ipynb'
 due_event: 
     type: code
-    date: 2022-07-28T23:59:00+3:30
+    date: 2023-07-14T23:59:00+3:30
     title: Additional Information 
     description: 'General Terminology'
     url: '/_images/pdf/Reference%20Document%20Connected.pdf'

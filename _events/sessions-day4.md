@@ -1,6 +1,6 @@
 ---
 type: raw_event
-date: 2022-07-28
+date: 2023-07-13
 name: Session
 description: 'Day 4 - Electronics'
 hide_time: true

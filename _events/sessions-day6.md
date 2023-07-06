@@ -1,6 +1,6 @@
 ---
 type: exam
-date: 2022-07-30
+date: 2023-07-15
 name: Session
 description: 'Day 6 - Project Fair'
 hide_time: true

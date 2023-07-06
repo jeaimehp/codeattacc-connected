@@ -1,6 +1,6 @@
 ---
 type: assignment
-date: 2022-07-25T13:59:00+3:30
+date: 2023-07-10T13:59:00+3:30
 title: 'Developmental Enviroment Setup'
 schedtag: Linux(Raspbian)
 hide_time: true
@@ -10,7 +10,7 @@ hide_from_announcments: true
 #solutions: /static_files/assignments/asg_solutions.pdf
 due_event: 
     type: code
-    date: 2022-07-25T23:59:00+3:30
+    date: 2023-07-10T23:59:00+3:30
     title: Additional Information 
     description: 'General Code@TACC:Connected Reference and Terminology'
     url: '/_images/pdf/Reference%20Document%20Connected.pdf'

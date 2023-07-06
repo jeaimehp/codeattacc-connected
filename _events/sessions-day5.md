@@ -1,6 +1,6 @@
 ---
 type: raw_event
-date: 2022-07-29
+date: 2023-07-14
 name: Session
 description: 'Day 5 - Project'
 hide_time: true

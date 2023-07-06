@@ -1,6 +1,6 @@
 ---
 type: raw_event
-date: 2022-07-26
+date: 2023-07-11
 name: Session
 description: 'Day 2 - Sensor Deployment'
 hide_time: true

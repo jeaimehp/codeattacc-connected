@@ -1,7 +1,7 @@
 ---
 layout: page
 type: lecture
-date: 2022-07-25T12:59:00+3:30
+date: 2023-07-10T12:59:00+3:30
 title: Sensing Walk
 lecttag: 'Tutorial'
 hide_from_announcments: true

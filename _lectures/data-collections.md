@@ -1,11 +1,11 @@
 ---
 layout: page
 type: lecture
-date: 2022-07-26T12:59:00+3:30
+date: 2023-07-11T12:59:00+3:30
 title: 'BFL Datasets'
-lecttag: 'Student Datasets'
+lecttag: 'Prior Student Datasets - 2022'
 hide_from_announcments: false
-tldr: "Student collected datasets"
+tldr: "Student collected datasets 2022"
 #thumbnail: /static_files/presentations/lec.jpg
 #links: 
 #    - url: https://github.com/jeaimehp/codeattacc-connected/blob/main/Notebook/EnviroPlus-test-example.ipynb

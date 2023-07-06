@@ -1,6 +1,6 @@
 ---
 type: raw_event
-date: 2022-07-27
+date: 2023-07-12
 name: Session
 description: 'Day 3 - Data Analysis'
 hide_time: true
