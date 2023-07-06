@@ -26,6 +26,10 @@ permalink: /information/
 
 * **[RPi Beginners Guide 4thEd English v2](/_images/pdf/BeginnersGuide-4thEd-Eng_v2.pdf)**
 * **[7in HDMI LCD Manual](/_images/pdf/7in-HDMI-LCD%20Manual.pdf)**
+* **[PCF8523 Real Time Clock (RTC)](https://www.adafruit.com/product/5189)**
+  * (PCF8523 RTC (Datasheet))(https://learn.adafruit.com/adafruit-pcf8523-real-time-clock/) 
+  * This board/chip uses I2C 7-bit address 0x68
+  * [RPi RTC Setup Instructions](/_images/pdf/adding-a-real-time-clock-to-raspberry-pi.pdf)
 * **[Pimoroni Enviro + Air Quality(PIM458)](https://shop.pimoroni.com/products/enviro?variant=31155658457171)**
   * [Pimoroni Enviro + Air Quality Getting Started](/_images/pdf/Getting%20Started%20with%20EnviroPlus.pdf)
   * [Pimoroni Enviro+ Github (Python Libraries)](https://github.com/pimoroni/enviroplus-python)

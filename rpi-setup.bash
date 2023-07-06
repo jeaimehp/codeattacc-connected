@@ -43,3 +43,15 @@ echo "Installing Enviro+ Libraries"
 curl -sSL https://get.pimoroni.com/enviroplus | bash
 
 
+echo "Setting up PCF8523 RTC"
+cd ~/codeattacc-connected/individual-scripts
+sudo bash rtcsetup.bash
+sudo bash rtcsetup-postreboot.bash
+
+
+echo ""
+echo "-----------------------------------------"
+echo ""
+echo "Finished Running Script"
+echo ""
+echo "-----------------------------------------"
