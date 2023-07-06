@@ -1,16 +1,21 @@
 offerings:
-  - title: Summer 2018
-    url: https://www.tacc.utexas.edu/education/k-12-outreach/students/code-at-tacc-connected
+  - title: "Code@TACC K-12 Programs"
+    url: https://tacc.utexas.edu/education/k-12-students/
 
-  - title: Summer 2019
-    url: https://www.tacc.utexas.edu/education/k-12-outreach/students/code-at-tacc-connected
+  - title: "Code@TACC:Connected"
+    url: https://tacc.utexas.edu/education/k-12-students/high-school-camps/connected/
 
-  - title: Summer 2021 (Virtual)
-    url: https://www.tacc.utexas.edu/education/k-12-outreach/students/code-at-tacc-connected
+  #- title: Summer 2018
+  #  url: https://www.tacc.utexas.edu/education/k-12-outreach/students/code-at-tacc-connected
+
+  #- title: Summer 2019
+  #  url: https://www.tacc.utexas.edu/education/k-12-outreach/students/code-at-tacc-connected
+
+  #- title: Summer 2021 (Virtual)
+  #  url: https://www.tacc.utexas.edu/education/k-12-outreach/students/code-at-tacc-connected
 
   #- title: Fall 1997
   #  url: https://previous_course_website.url/
-  
+
   #- title: Fall 1996
   #  url: https://previous_course_website.url/
-

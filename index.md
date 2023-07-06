@@ -31,4 +31,4 @@ title: Home
 * Computational Thinking
 
 # Communication Methods
-You can email our program at  outreach@tacc.utexas.edu.
+You can email our program at outreach@tacc.utexas.edu.
