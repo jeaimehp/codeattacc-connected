@@ -14,9 +14,9 @@ hide_from_announcments: true
   - Team Cartoon Mascott
 - **RPi Initial Setup**
 - **Sensing Walk**
-- **4th Annual Senses Poetry Jam**
+- **5th Annual Senses Poetry Jam**
 - **RPi Developmental Environment Setup**
-- **“We are going to do what now?!”:Overview**
+- **“We are going to do what now?!”: Overview**
 - **Sensor Build**
   - Screen
   - Enviro+ with Particulate Sensor
