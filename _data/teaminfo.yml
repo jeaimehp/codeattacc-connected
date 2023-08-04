@@ -1,96 +1,272 @@
-connected22:
-- quadname: 'AluMinion'
-  duo1name: 'Aluminium'
-  duo2name: 'Minions'
-  teamposter: '/static_files/group_posters/connected22/AluMinion/quad.JPG'
-  sensorposter: '/static_files/group_posters/connected22/AluMinion/sensor.JPG'
-  sensortype: 'PMS5003'
-  sensornmixedquadname: Yin-iums
-  sensorduo1: 'Aluminium'
-  sensorduo2: 'Yin'
-  pythonposter: '/static_files/group_posters/connected22/AluMinion/python.JPG'
-  pythontopic: 'Conditionals'
-  pythoncodeexample: '/static_files/group_code/connected22/PsstPython-CodeExamples/loops_exampleCode.ipynb'
-  datasamplelocation: 'Brackenridge Field Laboratory'
-  datasampledate: 'July 26, 2022'
-  datasamplesensors: 'Pimoroni Enviro + AirQuality'
-  duo1data_site1: '/static_files/group_datasets/connected22/Aluminium/site-1.csv'
-  duo1data_site2: '/static_files/group_datasets/connected22/Aluminium/site-2.csv'
-  duo1data_site3: '/static_files/group_datasets/connected22/Aluminium/site-3.csv'
-  duo1data_site4: '/static_files/group_datasets/connected22/Aluminium/site-4.csv'
-  duo2data_site1: '/static_files/group_datasets/connected22/Minions/site-1.csv'
-  duo2data_site2: '/static_files/group_datasets/connected22/Minions/site-2.csv'
-  duo2data_site3: '/static_files/group_datasets/connected22/Minions/site-3.csv'
-  duo2data_site4: '/static_files/group_datasets/connected22/Minions/site-4.csv'
+Connected-2023:
+  combineddata:
+    datasamplelocation: 'Brackenridge Field Laboratory'
+    datasampledate: 'July 11, 2023'
+    datasamplesensors: 'Pimoroni Enviro + AirQuality'
+    files:
+      - name: All Datasets (zip)
+        url: static_files/group_datasets/connected23/connected23-all-site-datasets.zip
+        #description: 
+      - name: Site 1 (csv)
+        url: static_files/group_datasets/connected23/connected23-site-1_all.csv
+      - name: Site 2 (csv)
+        url: static_files/group_datasets/connected23/connected23-site-2_all.csv
+      - name: Site 3 (csv)
+        url: static_files/group_datasets/connected23/connected23-site-3_all.csv
+      - name: Site 4 (csv)
+        url: static_files/group_datasets/connected23/connected23-site-4_all.csv
 
-- quadname: 'Swimmers in Stem'
-  duo1name: 'Daring Dolphins'
-  duo2name: 'Smart Sharks'
-  teamposter: '/static_files/group_posters/connected22/Swimmers_in_STEM/quad.JPG'
-  sensorposter: '/static_files/group_posters/connected22/Swimmers_in_STEM/sensor.JPG'
-  sensortype: 'LTR-559'
-  sensornmixedquadname: 'Shamrock-Sharks'
-  sensorduo1: 'Smart Sharks'
-  sensorduo2: 'Shamrocks'
-  pythonposter: '/static_files/group_posters/connected22/Swimmers_in_STEM/python.JPG'
-  pythontopic: 'Loops'
-  pythoncodeexample: '/static_files/group_code/connected22/PsstPython-CodeExamples/loops_exampleCode.ipynb'
-  datasamplelocation: 'Brackenridge Field Laboratory'
-  datasampledate: 'July 26, 2022'
-  datasamplesensors: 'Pimoroni Enviro + AirQuality'
-  duo1data_site1: '/static_files/group_datasets/connected22/Daring_Dolphins/site-1.csv'
-  duo1data_site2: '/static_files/group_datasets/connected22/Daring_Dolphins/site-2.csv'
-  duo1data_site3: '/static_files/group_datasets/connected22/Daring_Dolphins/site-3.csv'
-  duo1data_site4: '/static_files/group_datasets/connected22/Daring_Dolphins/site-4.csv'
-  duo2data_site1: '/static_files/group_datasets/connected22/smart_sharks/site-1.csv'
-  duo2data_site2: '/static_files/group_datasets/connected22/smart_sharks/site-2.csv'
-  #duo2data_site3: ''
-  duo2data_site4: '/static_files/group_datasets/connected22/smart_sharks/site-4.csv'
+  groups:
+    - quadname: 'Candy Shop'
+      duo1name: 'Nerds'
+      duo2name: 'Smarties'
+      themesong: "Candy Girl - New Edition"
+      themesongurl: https://www.youtube.com/watch?v=qAFg2TQk9v0&list=PLUBLqO0Yczv-IJj1OZZzJA0pgju-JdEmh&index=4
+      teamposter: 'static_files/group_posters/connected23/teams/candyshop/Candyshop-poster.jpg'
+      datasamplelocation: 'Brackenridge Field Laboratory'
+      datasampledate: 'July 11, 2023'
+      datasamplesensors: 'Pimoroni Enviro + AirQuality'
+      sensorposter: '/static_files/group_posters/connected23/teams/candyshop/pm25.jpg'
+      sensortype: PMS5003
+      pythonposter: '/static_files/group_posters/connected23/teams/candyshop/conditional.jpg'
+      pythontopic: Conditionals
+      datasets:
+        - duo: 'Nerds'
+          site_1: '/static_files/group_datasets/connected23/TheNerds/site-1.csv'
+          site_2: '/static_files/group_datasets/connected23/TheNerds/site-2.csv'
+          site_3: '/static_files/group_datasets/connected23/TheNerds/site-3.csv'
+          site_4: '/static_files/group_datasets/connected23/TheNerds/site-4.csv'
+        - duo: 'Smarties'
+          site_1: '/static_files/group_datasets/connected23/TheSmarties/site-1.csv'
+          site_2: '/static_files/group_datasets/connected23/TheSmarties/site-2.csv'
+          site_3: '/static_files/group_datasets/connected23/TheSmarties/site-3.csv'
+          site_4: '/static_files/group_datasets/connected23/TheSmarties/site-4.csv'
 
-- quadname: 'Harmony'
-  duo1name: 'Yin'
-  duo2name: 'Yang'
-  teamposter: '/static_files/group_posters/connected22/Harmony/quad.JPG'
-  sensorposter: '/static_files/group_posters/connected22/Harmony/sensor.JPG'
-  sensortype: 'BME280'
-  sensornmixedquadname: 'Yang-ions'
-  sensorduo1: 'Yang'
-  sensorduo2: 'Minions'
-  pythonposter: '/static_files/group_posters/connected22/Harmony/python.JPG'
-  pythontopic: 'Reading and Writing Files'
-  pythoncodeexample: '/static_files/group_code/connected22/PsstPython-CodeExamples/reading-and-writing-files.ipynb'
-  datasamplelocation: 'Brackenridge Field Laboratory'
-  datasampledate: 'July 26, 2022'
-  datasamplesensors: 'Pimoroni Enviro + AirQuality'
-  duo1data_site1: '/static_files/group_datasets/connected22/Yin/site-1.csv'
-  duo1data_site2: '/static_files/group_datasets/connected22/Yin/site-2.csv'
-  duo1data_site3: '/static_files/group_datasets/connected22/Yin/site-3.csv'
-  duo1data_site4: '/static_files/group_datasets/connected22/Yin/site-4.csv'
-  duo2data_site1: '/static_files/group_datasets/connected22/yang/site-1.csv'
-  duo2data_site2: '/static_files/group_datasets/connected22/yang/site-2.csv'
-  duo2data_site3: '/static_files/group_datasets/connected22/yang/site-3.csv'
-  duo2data_site4: '/static_files/group_datasets/connected22/yang/site-4.csv'  
+    - quadname: 'Connected X'
+      duo1name: 'Connected X'
+      themesong: "Phineas And Ferb - Theme Song "
+      themesongurl: https://www.youtube.com/watch?v=_yrIyu4Yne8&list=PLUBLqO0Yczv-IJj1OZZzJA0pgju-JdEmh&index=5
+      teamposter: 'static_files/group_posters/connected23/teams/connectedx/ConnectedX-poster.jpg'
+      datasamplelocation: 'Brackenridge Field Laboratory'
+      datasampledate: 'July 11, 2023'
+      datasamplesensors: 'Pimoroni Enviro + AirQuality'
+      sensorposter: '/static_files/group_posters/connected23/teams/connectedx/mems-mic.jpg'
+      sensortype: MEMS microphone
+      pythonposter: '/static_files/group_posters/connected23/teams/connectedx/whileloops.jpg'
+      pythontopic: While Loops
+      datasets:
+        - duo: Connected X
+          site_1: 'static_files/group_datasets/connected23/connectedx/site-1.csv'
+          site_2: 'static_files/group_datasets/connected23/connectedx/site-2.csv'
+          site_3: 'static_files/group_datasets/connected23/connectedx/site-3.csv'
+          site_4: 'static_files/group_datasets/connected23/connectedx/site-4.csv'
 
-- quadname: 'The Shouters'
-  duo1name: 'Yankee-Shamrock'
-  duo2name: 'LETS GOOO'
-  teamposter: '/static_files/group_posters/connected22/The_Shouters/quad.JPG'
-  sensorposter: '/static_files/group_posters/connected22/The_Shouters/sensor.JPG'
-  sensortype: 'MICS6814'
-  sensornmixedquadname: 'Lets Gooo-Dolphins'
-  sensorduo1: 'LETS GOOO'
-  sensorduo2: 'Daring Dolphins'
-  pythonposter: '/static_files/group_posters/connected22/The_Shouters/python.JPG'
-  pythontopic: 'Variables and Math Functions'
-  pythoncodeexample: '/static_files/group_code/connected22/PsstPython-CodeExamples/VariablesAndMath.ipynb'
-  datasamplelocation: 'Brackenridge Field Laboratory'
-  datasampledate: 'July 26, 2022'
-  datasamplesensors: 'Pimoroni Enviro + AirQuality'
-  duo1data_site1: '/static_files/group_datasets/connected22/YankeeShamrock/site-1.csv'
-  duo1data_site2: '/static_files/group_datasets/connected22/YankeeShamrock/site-2.csv'
-  duo1data_site3: '/static_files/group_datasets/connected22/YankeeShamrock/site-3.csv'
-  duo1data_site4: '/static_files/group_datasets/connected22/YankeeShamrock/site-4.csv'
-  duo2data_site1: '/static_files/group_datasets/connected22/LETS_GOOO/site-1.csv'
-  duo2data_site2: '/static_files/group_datasets/connected22/LETS_GOOO/site-2.csv'
-  duo2data_site3: '/static_files/group_datasets/connected22/LETS_GOOO/site-3.csv'
-  duo2data_site4: '/static_files/group_datasets/connected22/LETS_GOOO/site-4.csv' 
+
+    - quadname: 'The Joe Stars'
+      duo1name: 'The Joes'
+      duo2name: 'The Stars'
+      themesong: "Fighting Gold"
+      themesongurl: https://www.youtube.com/watch?v=ub3EI4xw48c&list=PLUBLqO0Yczv-IJj1OZZzJA0pgju-JdEmh&index=5
+      teamposter: 'static_files/group_posters/connected23/teams/joestars/Joestars-poster.jpg'
+      datasamplelocation: 'Brackenridge Field Laboratory'
+      datasampledate: 'July 11, 2023'
+      datasamplesensors: 'Pimoroni Enviro + AirQuality'
+      sensorposter: '/static_files/group_posters/connected23/teams/joestars/mics6814.jpg'
+      sensortype: MICS6814
+      pythonposter: '/static_files/group_posters/connected23/teams/joestars/forloops.jpg'
+      pythontopic: For Loops
+      datasets:
+        - duo: The Joes
+          site_1: 'static_files/group_datasets/connected23/TheJoes/site-1.csv'
+          site_2: 'static_files/group_datasets/connected23/TheJoes/site-2.csv'
+          site_3: 'static_files/group_datasets/connected23/TheJoes/site-3.csv'
+          site_4: 'static_files/group_datasets/connected23/TheJoes/site-4.csv'
+        - duo: The Stars
+          site_1: 'static_files/group_datasets/connected23/TheStars/site-1.csv'
+          site_2: 'static_files/group_datasets/connected23/TheStars/site-2.csv'
+          site_3: 'static_files/group_datasets/connected23/TheStars/site-3.csv'
+          site_4: 'static_files/group_datasets/connected23/TheStars/site-4.csv'
+
+
+
+
+    - quadname: 'The Multiverse'
+      duo1name: 'Anomalies'
+      duo2name: 'Canon Events'
+      themesong: "What's Up Danger - Blackway & Black Caviar"
+      themesongurl: https://www.youtube.com/watch?v=Y88LVU7MAe4&list=PLUBLqO0Yczv-IJj1OZZzJA0pgju-JdEmh&index=2
+      teamposter: 'static_files/group_posters/connected23/teams/multiverse/Multiverse-poster.jpg'
+      datasamplelocation: 'Brackenridge Field Laboratory'
+      datasampledate: 'July 11, 2023'
+      datasamplesensors: 'Pimoroni Enviro + AirQuality'
+      sensorposter: '/static_files/group_posters/connected23/teams/multiverse/bme280.jpg'
+      sensortype: BME280
+      pythonposter: '/static_files/group_posters/connected23/teams/multiverse/functions.jpg'
+      pythontopic: Functions
+      datasets:
+        - duo: 'Anomalies'
+          site_1: 'static_files/group_datasets/connected23/Anomalies/site-1.csv'
+          site_2: 'static_files/group_datasets/connected23/Anomalies/site-2.csv'
+          site_3: 'static_files/group_datasets/connected23/Anomalies/site-3.csv'
+          site_4: 'static_files/group_datasets/connected23/Anomalies/site-4.csv'
+        - duo: 'Canon Events'
+          site_1: 'tatic_files/group_datasets/connected23/CanonEvents/site-1.csv'
+          site_2: 'tatic_files/group_datasets/connected23/CanonEvents/site-2.csv'
+          site_3: 'tatic_files/group_datasets/connected23/CanonEvents/site-3.csv'
+          site_4: 'tatic_files/group_datasets/connected23/CanonEvents/site-4.csv'
+
+
+
+
+    - quadname: 'The Seasons'
+      duo1name: 'Summer'
+      duo2name: 'Winter'
+      themesong: "Hot N Cold - Katy Perry"
+      themesongurl: https://www.youtube.com/watch?v=-kmPPEuQyyc&list=PLUBLqO0Yczv-IJj1OZZzJA0pgju-JdEmh&index=2
+      teamposter: 'static_files/group_posters/connected23/teams/theseasons/Theseasons-poster.jpg'
+      datasamplelocation: 'Brackenridge Field Laboratory'
+      datasampledate: 'July 11, 2023'
+      datasamplesensors: 'Pimoroni Enviro + AirQuality'
+      sensorposter: '/static_files/group_posters/connected23/teams/theseasons/LTR-559.jpg'
+      sensortype: LTR-559
+      pythonposter: '/static_files/group_posters/connected23/teams/theseasons/datatypes.jpg'
+      pythontopic: Data Types
+      datasets:
+        - duo: 'Summer'
+          site_1: 'static_files/group_datasets/connected23/summer/site-1.csv'
+          site_2: 'static_files/group_datasets/connected23/summer/site-2.csv'
+          #site_3:
+          site_4: 'static_files/group_datasets/connected23/summer/site-4.csv'
+        - duo: 'Winter'
+          site_1: 'static_files/group_datasets/connected23/Winter/site-1.csv' 
+          site_2: 'static_files/group_datasets/connected23/Winter/site-2.csv' 
+          site_3: 'static_files/group_datasets/connected23/Winter/site-3.csv' 
+          site_4: 'static_files/group_datasets/connected23/Winter/site-4.csv' 
+
+
+
+Connected-2022:
+  combineddata:
+    datasamplelocation: 'Brackenridge Field Laboratory'
+    datasampledate: 'July 26, 2022'
+    datasamplesensors: 'Pimoroni Enviro + AirQuality'
+    files:
+      - name: All Datasets (zip)
+        url: static_files/group_datasets/connected22/connected22-all-site-datasets.zip
+        #description: 
+      - name: Site 1 (csv)
+        url: static_files/group_datasets/connected22/connected22-site-1_all.csv
+      - name: Site 2 (csv)
+        url: static_files/group_datasets/connected22/connected22-site-2_all.csv
+      - name: Site 3 (csv)
+        url: static_files/group_datasets/connected22/connected22-site-3_all.csv
+      - name: Site 4 (csv)
+        url: static_files/group_datasets/connected22/connected22-site-4_all.csv
+  groups:
+    - quadname: 'AluMinion'
+      duo1name: 'Aluminium'
+      duo2name: 'Minions'
+      teamposter: 'static_files/group_posters/connected22/AluMinion/quad.JPG'
+      sensorposter: '/static_files/group_posters/connected22/AluMinion/sensor.JPG'
+      sensortype: 'PMS5003'
+      sensornmixedquadname: Yin-iums
+      sensorduo1: 'Aluminium'
+      sensorduo2: 'Yin'
+      pythonposter: '/static_files/group_posters/connected22/AluMinion/python.JPG'
+      pythontopic: 'Conditionals'
+      pythoncodeexample: '/static_files/group_code/connected22/PsstPython-CodeExamples/loops_exampleCode.ipynb'
+      datasamplelocation: 'Brackenridge Field Laboratory'
+      datasampledate: 'July 26, 2022'
+      datasamplesensors: 'Pimoroni Enviro + AirQuality'
+      datasets:
+        - duo: 'Aluminium'
+          site_1: 'static_files/group_datasets/connected22/Aluminium/site-1.csv'
+          site_2: 'static_files/group_datasets/connected22/Aluminium/site-2.csv'
+          site_3: 'static_files/group_datasets/connected22/Aluminium/site-3.csv'
+          site_4: 'static_files/group_datasets/connected22/Aluminium/site-4.csv'
+        - duo: 'Minions'
+          site_1: 'static_files/group_datasets/connected22/Minions/site-1.csv'
+          site_2: 'static_files/group_datasets/connected22/Minions/site-2.csv'
+          site_3: 'static_files/group_datasets/connected22/Minions/site-3.csv'
+          site_4: 'static_files/group_datasets/connected22/Minions/site-4.csv'
+
+    - quadname: 'Swimmers in Stem'
+      duo1name: 'Daring Dolphins'
+      duo2name: 'Smart Sharks'
+      teamposter: 'static_files/group_posters/connected22/Swimmers_in_STEM/quad.JPG'
+      sensorposter: '/static_files/group_posters/connected22/Swimmers_in_STEM/sensor.JPG'
+      sensortype: 'LTR-559'
+      sensornmixedquadname: 'Shamrock-Sharks'
+      sensorduo1: 'Smart Sharks'
+      sensorduo2: 'Shamrocks'
+      pythonposter: '/static_files/group_posters/connected22/Swimmers_in_STEM/python.JPG'
+      pythontopic: 'Loops'
+      pythoncodeexample: '/static_files/group_code/connected22/PsstPython-CodeExamples/loops_exampleCode.ipynb'
+      datasamplelocation: 'Brackenridge Field Laboratory'
+      datasampledate: 'July 26, 2022'
+      datasamplesensors: 'Pimoroni Enviro + AirQuality'
+      datasets:
+        - duo: 'Daring Dolphins'
+          site_1: 'static_files/group_datasets/connected22/Daring_Dolphins/site-1.csv'
+          site_2: 'static_files/group_datasets/connected22/Daring_Dolphins/site-2.csv'
+          site_3: 'static_files/group_datasets/connected22/Daring_Dolphins/site-3.csv'
+          site_4: 'static_files/group_datasets/connected22/Daring_Dolphins/site-4.csv'
+        - duo: 'Smart Sharks'
+          site_1: 'static_files/group_datasets/connected22/smart_sharks/site-1.csv'
+          site_2: 'static_files/group_datasets/connected22/smart_sharks/site-2.csv'
+          #site_3: ''
+          site_4: 'static_files/group_datasets/connected22/smart_sharks/site-4.csv'
+
+    - quadname: 'Harmony'
+      duo1name: 'Yin'
+      duo2name: 'Yang'
+      teamposter: 'static_files/group_posters/connected22/Harmony/quad.JPG'
+      sensorposter: '/static_files/group_posters/connected22/Harmony/sensor.JPG'
+      sensortype: 'BME280'
+      sensornmixedquadname: 'Yang-ions'
+      sensorduo1: 'Yang'
+      sensorduo2: 'Minions'
+      pythonposter: '/static_files/group_posters/connected22/Harmony/python.JPG'
+      pythontopic: 'Reading and Writing Files'
+      pythoncodeexample: '/static_files/group_code/connected22/PsstPython-CodeExamples/reading-and-writing-files.ipynb'
+      datasamplelocation: 'Brackenridge Field Laboratory'
+      datasampledate: 'July 26, 2022'
+      datasamplesensors: 'Pimoroni Enviro + AirQuality'
+      datasets:
+        - duo: Yin
+          site_1: 'static_files/group_datasets/connected22/Yin/site-1.csv'
+          site_2: 'static_files/group_datasets/connected22/Yin/site-2.csv'
+          site_3: 'static_files/group_datasets/connected22/Yin/site-3.csv'
+          site_4: 'static_files/group_datasets/connected22/Yin/site-4.csv'
+        - duo: Yang
+          site_1: 'static_files/group_datasets/connected22/yang/site-1.csv'
+          site_2: 'static_files/group_datasets/connected22/yang/site-2.csv'
+          site_3: 'static_files/group_datasets/connected22/yang/site-3.csv'
+          site_4: 'static_files/group_datasets/connected22/yang/site-4.csv'  
+
+    - quadname: 'The Shouters'
+      duo1name: 'Yankee-Shamrock'
+      duo2name: 'LETS GOOO'
+      teamposter: 'static_files/group_posters/connected22/The_Shouters/quad.JPG'
+      sensorposter: '/static_files/group_posters/connected22/The_Shouters/sensor.JPG'
+      sensortype: 'MICS6814'
+      sensornmixedquadname: 'Lets Gooo-Dolphins'
+      sensorduo1: 'LETS GOOO'
+      sensorduo2: 'Daring Dolphins'
+      pythonposter: '/static_files/group_posters/connected22/The_Shouters/python.JPG'
+      pythontopic: 'Variables and Math Functions'
+      pythoncodeexample: '/static_files/group_code/connected22/PsstPython-CodeExamples/VariablesAndMath.ipynb'
+      datasamplelocation: 'Brackenridge Field Laboratory'
+      datasampledate: 'July 26, 2022'
+      datasamplesensors: 'Pimoroni Enviro + AirQuality'
+      datasets:
+        - duo: 'Yankee-Shamrock'
+          site_1: 'static_files/group_datasets/connected22/YankeeShamrock/site-1.csv'
+          site_2: 'static_files/group_datasets/connected22/YankeeShamrock/site-2.csv'
+          site_3: 'static_files/group_datasets/connected22/YankeeShamrock/site-3.csv'
+          site_4: 'static_files/group_datasets/connected22/YankeeShamrock/site-4.csv'
+        - duo: 'LETS GOOO'
+          site_1: 'static_files/group_datasets/connected22/LETS_GOOO/site-1.csv'
+          site_2: 'static_files/group_datasets/connected22/LETS_GOOO/site-2.csv'
+          site_3: 'static_files/group_datasets/connected22/LETS_GOOO/site-3.csv'
+          site_4: 'static_files/group_datasets/connected22/LETS_GOOO/site-4.csv' 
