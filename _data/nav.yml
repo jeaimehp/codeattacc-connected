@@ -6,19 +6,23 @@ items:
   - url: /schedule/
     name: Schedule
     icon_class: fas fa-calendar-alt
+  
+  - url: /teams/
+    name: Teams
+    icon_class: fas fa-users
 
   - url: /sessions/
     name: Sessions
-    icon_class: fas fa-user-graduate
+    icon_class: fas fa-chalkboard-teacher
 
   - url: /examples/
     name: Examples
-    icon_class: fas fa-book-reader
+    icon_class: fas fa-laptop-code
 
-  - url: /project/
-    name: Final Project
-    icon_class: fas fa-user-graduate
+#  - url: /project/
+#    name: Final Project
+#    icon_class: fas fa-swatchbook
 
   - url: /information/
-    name: Information and References
-    icon_class: fas fa-book
+    name: References
+    icon_class: fas fa-book-reader

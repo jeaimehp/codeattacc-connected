@@ -1,0 +1,90 @@
+.yearwrapper {
+    margin-bottom: 2rem;
+    border: 2px solid $header-color;
+    border-radius: 8px;
+    display: flex; 
+    flex-direction: column;
+
+
+    h1 {
+        font-size: 2rem;
+        font-weight: bold;
+        background-color: $header-color;
+        padding: 1rem;
+        
+        
+    }
+    p{
+        
+        margin: 1rem;
+        font-weight: bold;
+            
+    }
+}
+
+ul.datalist {
+    list-style-type: none;
+    list-style: none;
+    padding-left: 2rem;
+    
+}
+
+li.datalist {
+
+    padding-top: 1rem;
+    
+    
+    
+}
+
+.groupcontainer {
+    //padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    background-color: rgba(124, 220, 146, 0.05 );
+    border-radius: 8px;
+    display: flex; 
+    flex-direction: column;
+    border-bottom: 2px solid rgba(124, 220, 146, 0.5 );
+
+    h2 {
+        background-color: rgba(124, 220, 146, 0.5 );
+        padding: 10px;
+        border-radius: 8px;
+        font-weight: bold;
+    }
+    
+    .groupimage-wrapper {
+        display: flex;
+
+        
+    }
+
+
+    .groupimage {
+        width: 40%;
+        padding: 5px;
+        text-align: center;
+        font-weight: bold;
+        text-transform: capitalize;
+        img{
+            border-radius: 8px;
+        }
+        caption {
+            text-align: center;
+        }
+    }
+
+    
+    
+    .groupinfo {
+        padding: 1rem;
+    }
+
+}
+
+.groupcontainer:hover {
+    border: 2px solid rgba(124, 220, 146, 0.5 );
+    background-color: rgba(124, 220, 146, 0.1 );
+    border-radius: 8px;
+}

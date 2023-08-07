@@ -1,7 +1,11 @@
 ---
 layout: page
-title: Final Project
-permalink: /project/
+type: lecture
+date: 2023-10-12T12:59:00+3:30
+title: 'Final Project'
+lecttag: 'Student Fair'
+hide_from_announcments: false
+tldr: "Final Presentations of Dioramas"
 ---
 # Project Goals
 

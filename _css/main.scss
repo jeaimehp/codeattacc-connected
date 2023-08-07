@@ -6,6 +6,10 @@
 $header-background-invert: 0%;
 @import "user_vars";
 
+
+
+// @import "teams";
+
 // Our variables
 $base-font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 $base-font-size:   .95em;
@@ -57,6 +61,7 @@ $on-laptop:        950px;
         "base",
         "layout",
         "syntax-highlighting",
-	    "fancy-image"
+	    "fancy-image",
+        "teams"
 ;
 
